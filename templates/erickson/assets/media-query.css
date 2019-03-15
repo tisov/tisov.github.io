@@ -1,0 +1,98 @@
+@media (max-width: 1199px) {
+
+  
+}
+
+
+@media (max-width: 991px) {
+  html {
+    font-size: 12px;
+  }
+  .slogan h1 {
+    letter-spacing: 23px;
+  }
+  .serv-tabs__heading {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .serv-tabs__heading li {
+    -ms-flex-preferred-size: 25%;
+        flex-basis: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  html {
+    font-size: 10px;
+  }
+  .navbar .nav__menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: rgba(18, 18, 18, 0.97);
+    margin: 0;
+  }
+  .navbar .nav__menu li {
+    height: auto;
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.065);
+  }
+  .navbar .nav__menu li:last-child {
+    border-bottom: none;
+  }
+  .navbar .nav__menu li a {
+    padding: 10px;
+  }
+  .navbar .nav__menu li.active {
+    background-color: rgba(255, 255, 255, 0.03);
+  }
+  .nav__mobile-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .team-item {
+    max-width: 370px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .news-sec-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .news-sec-title .sec-title {
+    margin-right: auto;
+    margin-bottom: 0;
+    display: inline-block;
+  }
+  .news-sec-title .sec-more-right {
+    margin-top: 1.3rem;
+  }
+  .contact-form .cf__left-side,
+  .contact-form .cf__right-side {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  .contact-form .cf__left-side input:last-child {
+    margin-bottom: 10px;
+  }
+}
+

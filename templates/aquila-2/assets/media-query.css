@@ -1,0 +1,258 @@
+@media (max-width: 1199px) {
+
+
+
+  
+
+}
+
+
+
+
+
+@media (max-width: 991px) {
+
+  html{
+
+    font-size: 14px;
+
+  }
+
+  .navbar__logo{
+    width: 100px;
+  }
+
+  .slogan__title{
+    font-size: 2rem;
+  }
+
+  .sec2-img{
+
+    display: none;
+
+  }
+
+  
+
+  .sec-future img{
+
+    display: none;
+
+  }
+
+}
+
+
+
+
+
+@media (max-width: 767px) {
+
+  html{
+
+    font-size: 14px;
+
+  }
+
+  .top-nav{
+
+    height: 60px;
+
+    background-color: rgb(50, 50, 50);
+
+  }
+
+  .navbar__menu{
+
+    position: absolute;
+
+    width: 100%;
+
+    top: 53px;
+
+    left: 0;
+
+    display: none;
+
+  }
+
+  .navbar__menu-items{
+
+    -webkit-box-orient: vertical;
+
+    -webkit-box-direction: normal;
+
+        -ms-flex-direction: column;
+
+            flex-direction: column;
+
+    background-color: #fff;
+
+    padding: 0 0.62rem;
+
+  }
+
+  .navbar__menu-items li{
+
+    border-bottom: 1px solid rgb(243, 243, 243);
+
+  }
+
+  .navbar__menu-items li:last-child{
+
+    border-bottom: none;
+
+  }
+
+  .navbar__menu-items li a{
+
+    color: #363636;
+
+    padding: 0.62rem 0.5rem;
+
+  }
+
+  .fixed-nav {
+
+    display: none;
+
+  }
+
+  
+
+/* Menu icon show */
+
+  .navbar__icon {
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+
+    height: 35px;
+
+    width: 35px;
+
+    -ms-flex-wrap: wrap;
+
+        flex-wrap: wrap;
+
+    -webkit-box-align: center;
+
+       -ms-flex-align: center;
+
+          align-items: center;
+
+    cursor: pointer;
+
+  }
+
+  .navbar__icon .item-1,
+
+  .navbar__icon .item-2,
+
+  .navbar__icon .item-3 {
+
+    width: 100%;
+
+    background-color: aliceblue;
+
+    height: 4px;
+
+    border-radius: 5px;
+
+    -webkit-transition: 0.3s;
+
+    transition: 0.3s;
+
+  }
+
+  .open .item-1,
+
+  .open .item-2,
+
+  .open .item-3 {
+
+    background-color: rgb(188, 188, 188);
+
+  }
+
+.open .item-1{
+
+  -webkit-transform-origin: right;
+
+          transform-origin: right;
+
+  -webkit-transform: rotateZ(-45deg);
+
+          transform: rotateZ(-45deg);
+
+}
+
+.open .item-2{
+
+  opacity: 0;
+
+}
+
+.open .item-3{
+
+  -webkit-transform-origin: right;
+
+          transform-origin: right;
+
+  -webkit-transform: rotateZ(45deg);
+
+          transform: rotateZ(45deg);
+
+}
+
+  
+
+  .slogan{
+
+    height: calc(100vh - 60px);
+
+  }
+
+  
+
+/* product video section */
+
+  .video-box,
+
+  .pro-info{
+
+    min-height: 400px;
+
+  }
+
+  
+
+  .v-modal__content{
+
+    width: 90%;
+
+  }
+
+}
+
+
+
+
+
+@media screen and (max-width: 575px) {
+
+  html{
+
+    font-size: 10px;
+
+  }
+
+}
+
+
+
+
+
